@@ -7,10 +7,19 @@
 
 The segmental AE-RNN is described in
 
-> To-do: write 
-> the paper
+> H. Kamper, "Dynamic programming on self-supervised features for word
+> segmentation on discovered phone units," *arXiv preprint arXiv:2202.???*,
+> 2022. [[arXiv](https://arxiv.org/????)]
 
 Please cite this paper if you use the code.
+
+
+## Dependencies
+
+Dependencies can be installed in a conda environment:
+
+    conda env create -f environment.yml
+    conda activate dpdp
 
 
 ## Examples

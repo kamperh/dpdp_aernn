@@ -8,6 +8,7 @@
 !*.ipynb
 !*.conf
 !*.yaml
+!*.yml
 !*.txt
 notebooks/.ipynb_checkpoints/*
 notebooks/data/*

@@ -1,0 +1,16 @@
+name: dpdp
+channels:
+  - conda-forge
+dependencies:
+  - python=3
+  - git
+  - joblib
+  - jupyter
+  - nose
+  - matplotlib
+  - ipython
+  - numpy
+  - pip
+  - scipy
+  - tqdm
+  - pytorch
