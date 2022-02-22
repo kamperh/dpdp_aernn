@@ -5,8 +5,8 @@
 
 ## Overview
 
-The duration-penalized autoencoding recurrent neural network (DPDP AE-RNN) is
-described in
+The duration-penalized dynamic programming autoencoding recurrent neural
+network (DPDP AE-RNN) is described in
 
 > H. Kamper, "Dynamic programming on self-supervised features for word
 > segmentation on discovered phone units," *arXiv preprint arXiv:2202.???*,
