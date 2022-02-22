@@ -18,7 +18,7 @@ import sys
 import torch
 import torch.nn as nn
 
-from seg_aernn import datasets, models, viterbi
+from dpdp_aernn import datasets, models, viterbi
 from utils import eval_segmentation
 
 
