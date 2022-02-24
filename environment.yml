@@ -1,6 +1,8 @@
 name: dpdp
 channels:
+  - defaults
   - conda-forge
+  - pytorch
 dependencies:
   - python=3
   - git
@@ -11,6 +13,8 @@ dependencies:
   - ipython
   - numpy
   - pip
+  - scikit-learn
   - scipy
   - tqdm
   - pytorch
+  - cudatoolkit=10.2

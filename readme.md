@@ -5,8 +5,10 @@
 
 ## Overview
 
-The duration-penalized dynamic programming autoencoding recurrent neural
-network (DPDP AE-RNN) is described in
+This is the repository for the duration-penalized dynamic programming
+autoencoding recurrent neural network (DPDP AE-RNN). This is a model that
+performs unsupervised word segmentation from symbolic input (phonemic sequences
+in this case). The DPDP AE-RNN is described in:
 
 > H. Kamper, "Dynamic programming on self-supervised features for word
 > segmentation on discovered phone units," *arXiv preprint arXiv:2202.???*,
@@ -21,6 +23,9 @@ Dependencies can be installed in a conda environment:
 
     conda env create -f environment.yml
     conda activate dpdp
+
+Make sure to check that your CUDA version matches the `cudatoolkit` version in
+the environment file before installing.
 
 
 ## Examples
@@ -39,7 +44,8 @@ encodings obtained from other models.
 ## Brent results
 
 The example script above is by default applied to a validation set (`sentences
-= val_sentences_ref`) on which you should obtain the following results:
+= val_sentences_ref`) on which you should approximately to the following
+results:
 
     ---------------------------------------------------------------------------
     Word boundaries:
@@ -56,7 +62,7 @@ The example script above is by default applied to a validation set (`sentences
     ---------------------------------------------------------------------------
 
 When applying the model on the full training dataset (`sentences =
-train_sentences_ref`), you should obtain the following results:
+train_sentences_ref`), you should approximately obtain the following results:
 
     ---------------------------------------------------------------------------
     Word boundaries:
@@ -77,3 +83,10 @@ train_sentences_ref`), you should obtain the following results:
 
 The Brent data was obtained from
 <https://github.com/melsner/neural-segmentation>.
+
+
+## Disclaimer
+
+The code provided here is not pretty. But research should be reproducible. I
+provide no guarantees with the code, but please let me know if you have any
+problems, find bugs or have general comments.
