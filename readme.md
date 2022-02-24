@@ -35,10 +35,9 @@ execute:
 
     ./run_brent.py
 
-Step-by-step examples are given in the Jupyter notebooks in the
-[notebooks/](notebooks/) directory. The [brent.ipynb](notebooks/brent.ipynb)
-notebook follows the script above the most closely. The other notebooks rely on
-encodings obtained from other models.
+A step-by-step example is given in the [brent.ipynb](notebooks/brent.ipynb)
+notebook. The other notebooks in [notebooks/](notebooks/) rely on encodings
+obtained from other models.
 
 
 ## Brent results
