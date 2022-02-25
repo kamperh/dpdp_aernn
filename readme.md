@@ -10,9 +10,9 @@ autoencoding recurrent neural network (DPDP AE-RNN). This is a model that
 performs unsupervised word segmentation from symbolic input (phonemic sequences
 in this case). The DPDP AE-RNN is described in:
 
-> H. Kamper, "Dynamic programming on self-supervised features for word
-> segmentation on discovered phone units," *arXiv preprint arXiv:2202.???*,
-> 2022. [[arXiv](https://arxiv.org/????)]
+> H. Kamper, "Word segmentation on discovered phone units with dynamic
+> programming and self-supervised scoring," *arXiv preprint arXiv:2202.11929*,
+> 2022. [[arXiv](https://arxiv.org/abs/2202.11929)]
 
 Please cite this paper if you use the code.
 
