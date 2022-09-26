@@ -18,11 +18,10 @@ class WordDataset(Dataset):
 
     Parameters
     ----------
-    text_to_id_func : function
-        Should map a given string to a lisf ot IDs.
-
     sentences : list of str
         In each sentence, words are assumed to be separated by spaces.
+    text_to_id_func : function
+        Should map a given string to a list of IDs.
     """
     
     def __init__(self, sentences, text_to_id_func, n_symbols_max=None):

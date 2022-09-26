@@ -253,7 +253,7 @@ class Decoder2(nn.Module):
 
 
 class EncoderDecoder(nn.Module):
-    """A encoder-decoder."""
+    """An encoder-decoder."""
 
     def __init__(self, encoder, decoder):
         super(EncoderDecoder, self).__init__()
